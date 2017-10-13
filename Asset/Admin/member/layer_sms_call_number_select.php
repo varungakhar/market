@@ -16,6 +16,7 @@
     </tr>
     <?php
     if (empty($smsCallNumberData) === false) {
+        echo "sdfs";
         $tableNo = count($smsCallNumberData);
         foreach ($smsCallNumberData as $key => $getData) {
     ?>

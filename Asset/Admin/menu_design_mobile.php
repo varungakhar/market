@@ -24,6 +24,7 @@
         }
 
         if ($leftVal['depth'] == 2) {
+            echo "djhfbdsf";
             if ($leftVal['sDisplay'] == 'y') {
                 echo $oldDepth != $leftVal['depth'] ? '</ul>' : '';
                 ?>
