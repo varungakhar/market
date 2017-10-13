@@ -30,6 +30,9 @@
             <link type = "text/css" href = "<?=gd_set_browser_cache($v); ?>" rel = "stylesheet" />
             <?php
         }
+
+        echo "mainval";
+        
     }
     if (isset($headCss) === true) { ?>
         <style type="text/css">
