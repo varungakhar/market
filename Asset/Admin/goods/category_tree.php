@@ -16,7 +16,7 @@ function callback_editor(response, status, xhr)
 
 $(document).ready(function(){
 
-
+echo "value";
 	// 카테고리 트리의 글자수 및 카테고리 차수 설정
 	$.tree.reference('categoryTree').settings.rules.valLength	= <?=$data['nameLength'];?>;
 	$.tree.reference('categoryTree').settings.rules.max_depth	= <?=$data['cateDepth'];?>;
